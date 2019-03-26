@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-26T12:49:32.381Z</updated>
+  <updated>2019-03-26T16:20:45.597Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://yoursite.com/2019/03/27/Flutter-Plugins-1-Fluttertoast/"/>
     <id>http://yoursite.com/2019/03/27/Flutter-Plugins-1-Fluttertoast/</id>
     <published>2019-03-26T20:47:33.000Z</published>
-    <updated>2019-03-26T12:49:32.381Z</updated>
+    <updated>2019-03-26T16:20:45.597Z</updated>
     
     <content type="html"><![CDATA[<h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2>]]></content>
     
@@ -34,6 +34,14 @@
     
     </summary>
     
+      <category term="flutter" scheme="http://yoursite.com/categories/flutter/"/>
+    
+      <category term="flutter plugins" scheme="http://yoursite.com/categories/flutter/flutter-plugins/"/>
+    
+    
+      <category term="flutter" scheme="http://yoursite.com/tags/flutter/"/>
+    
+      <category term="flutter plugin" scheme="http://yoursite.com/tags/flutter-plugin/"/>
     
   </entry>
   

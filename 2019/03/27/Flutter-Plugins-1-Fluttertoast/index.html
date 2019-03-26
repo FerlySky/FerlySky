@@ -75,9 +75,9 @@
     root: '/',
     scheme: 'Pisces',
     version: '7.0.1',
-    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":true,"dimmer":true},
     back2top: true,
-    back2top_sidebar: false,
+    back2top_sidebar: true,
     fancybox: false,
     fastclick: false,
     lazyload: false,
@@ -100,20 +100,18 @@
 
 
   <meta name="description" content="title1title2">
-<meta name="keywords" content="Java,Flutter,Python,Hexo">
+<meta name="keywords" content="flutter,flutter plugin">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Flutter Plugins(1)-Fluttertoast">
 <meta property="og:url" content="http://yoursite.com/2019/03/27/Flutter-Plugins-1-Fluttertoast/index.html">
 <meta property="og:site_name" content="FsBlog">
 <meta property="og:description" content="title1title2">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-26T12:49:32.381Z">
+<meta property="og:updated_time" content="2019-03-26T16:20:45.597Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Flutter Plugins(1)-Fluttertoast">
 <meta name="twitter:description" content="title1title2">
 
-
-  
 
 
   <link rel="alternate" href="/atom.xml" title="FsBlog" type="application/atom+xml">
@@ -390,7 +388,7 @@
                 
               
 
-              <time title="创建时间：2019-03-26 20:47:33 / 修改时间：12:49:32" itemprop="dateCreated datePublished" datetime="2019-03-26T20:47:33Z">2019-03-26</time>
+              <time title="创建时间：2019-03-26 20:47:33 / 修改时间：16:20:45" itemprop="dateCreated datePublished" datetime="2019-03-26T20:47:33Z">2019-03-26</time>
             
 
             
@@ -400,6 +398,31 @@
             
           </span>
 
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/flutter/" itemprop="url" rel="index"><span itemprop="name">flutter</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/flutter/flutter-plugins/" itemprop="url" rel="index"><span itemprop="name">flutter plugins</span></a></span>
+
+                
+                
+              
+            </span>
           
 
           
@@ -449,6 +472,14 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/flutter/" rel="tag"># flutter</a>
+          
+            <a href="/tags/flutter-plugin/" rel="tag"># flutter plugin</a>
+          
+        </div>
       
 
       
@@ -545,7 +576,45 @@
               
 
               
+                
+                
+                <div class="site-state-item site-state-categories">
+                  
+                    
+                      <a href="/categories/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
 
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                      <a href="/tags/">
+                    
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
               
             </nav>
           
@@ -561,6 +630,32 @@
 
           
 
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="https://gitee.com/FerlySky" title="Gitee &rarr; https://gitee.com/FerlySky" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>Gitee</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  
+                  
+                    
+                  
+                  
+                    
+                  
+                  <a href="mailto:1255523335@qq.com" title="E-Mail &rarr; mailto:1255523335@qq.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+            </div>
           
 
           
@@ -596,9 +691,18 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
+  
+    <div id="sidebar-dimmer"></div>
   
 
 
@@ -640,11 +744,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     
