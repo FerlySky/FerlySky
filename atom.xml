@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-26T16:20:45.597Z</updated>
+  <updated>2019-03-28T04:34:54.760Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,49 +17,17 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Flutter Plugins(1)-Fluttertoast</title>
-    <link href="http://yoursite.com/2019/03/27/Flutter-Plugins-1-Fluttertoast/"/>
-    <id>http://yoursite.com/2019/03/27/Flutter-Plugins-1-Fluttertoast/</id>
-    <published>2019-03-26T20:47:33.000Z</published>
-    <updated>2019-03-26T16:20:45.597Z</updated>
+    <title>Flutter Plugins 1: Fluttertoast</title>
+    <link href="http://yoursite.com/2019/03/28/Flutter-Plugins-1-Fluttertoast/"/>
+    <id>http://yoursite.com/2019/03/28/Flutter-Plugins-1-Fluttertoast/</id>
+    <published>2019-03-28T12:31:45.000Z</published>
+    <updated>2019-03-28T04:34:54.760Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="title1"><a href="#title1" class="headerlink" title="title1"></a>title1</h1><h2 id="title2"><a href="#title2" class="headerlink" title="title2"></a>title2</h2>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;title1&quot;&gt;&lt;a href=&quot;#title1&quot; class=&quot;headerlink&quot; title=&quot;title1&quot;&gt;&lt;/a&gt;title1&lt;/h1&gt;&lt;h2 id=&quot;title2&quot;&gt;&lt;a href=&quot;#title2&quot; class=&quot;headerlink&quot; titl
-      
-    
-    </summary>
-    
-      <category term="flutter" scheme="http://yoursite.com/categories/flutter/"/>
-    
-      <category term="flutter plugins" scheme="http://yoursite.com/categories/flutter/flutter-plugins/"/>
-    
-    
-      <category term="flutter" scheme="http://yoursite.com/tags/flutter/"/>
-    
-      <category term="flutter plugin" scheme="http://yoursite.com/tags/flutter-plugin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/03/26/hello-world/"/>
-    <id>http://yoursite.com/2019/03/26/hello-world/</id>
-    <published>2019-03-26T03:36:35.507Z</published>
-    <updated>2019-03-26T03:36:35.507Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    <content type="html"><![CDATA[<p>Fluttertoast 是一个弹出toast的第三方框架<br><a id="more"></a></p><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line"><span class="attr">  fluttertoast:</span> <span class="string">^3.0.3</span></span><br></pre></td></tr></table></figure><p>获取最新版本号：<a href="https://pub.flutter-io.cn/packages/fluttertoast" target="_blank" rel="noopener">https://pub.flutter-io.cn/packages/fluttertoast</a></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="导包"><a href="#导包" class="headerlink" title="导包"></a>导包</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:fluttertoast/fluttertoast'</span>;</span><br></pre></td></tr></table></figure><h2 id="弹出toast"><a href="#弹出toast" class="headerlink" title="弹出toast"></a>弹出toast</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Fluttertoast.showToast(</span><br><span class="line">  msg: <span class="string">"This is Center Short Toast"</span>,</span><br><span class="line">  toastLength: Toast.LENGTH_SHORT,</span><br><span class="line">  gravity: ToastGravity.CENTER,</span><br><span class="line">  timeInSecForIos: <span class="number">1</span>,</span><br><span class="line">  backgroundColor: Colors.red,</span><br><span class="line">  textColor: Colors.white,</span><br><span class="line">  fontSize: <span class="number">16.0</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure><p>参数:</p><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>msg</td><td>String，要弹出的消息，非空必须</td></tr><tr><td>toastLength</td><td>Toast.LENGTH_SHORT、 Toast.LENGTH_LONG</td></tr><tr><td>gravity</td><td>ToastGravity，toast显示的位置，ToastGravity.TOP、ToastGravity.CENTER、ToastGravity.BOTTOM</td></tr><tr><td>timeInSecForIos</td><td>int，仅限ios平台</td></tr><tr><td>backgroundColor</td><td>Color，背景颜色</td></tr><tr><td>textColor</td><td>Color，文字颜色</td></tr><tr><td>fontSize</td><td>float，文字大小</td></tr></tbody></table><h2 id="取消弹出"><a href="#取消弹出" class="headerlink" title="取消弹出"></a>取消弹出</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Fluttertoast.cancel();</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
+      &lt;p&gt;Fluttertoast 是一个弹出toast的第三方框架&lt;br&gt;&lt;/p&gt;
     
     </summary>
     
