@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2019-03-28T04:34:54.760Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://ferlysky.gitee.io/"/>
+  <updated>2019-03-28T05:04:39.460Z</updated>
+  <id>https://ferlysky.gitee.io/</id>
   
   <author>
     <name>FerlySky</name>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>Flutter Plugins 1: Fluttertoast</title>
-    <link href="http://yoursite.com/2019/03/28/Flutter-Plugins-1-Fluttertoast/"/>
-    <id>http://yoursite.com/2019/03/28/Flutter-Plugins-1-Fluttertoast/</id>
+    <link href="https://ferlysky.gitee.io/2019/03/28/Flutter-Plugins-1-Fluttertoast/"/>
+    <id>https://ferlysky.gitee.io/2019/03/28/Flutter-Plugins-1-Fluttertoast/</id>
     <published>2019-03-28T12:31:45.000Z</published>
-    <updated>2019-03-28T04:34:54.760Z</updated>
+    <updated>2019-03-28T05:04:39.460Z</updated>
     
     <content type="html"><![CDATA[<p>Fluttertoast 是一个弹出toast的第三方框架<br><a id="more"></a></p><h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">dependencies:</span></span><br><span class="line"><span class="attr">  fluttertoast:</span> <span class="string">^3.0.3</span></span><br></pre></td></tr></table></figure><p>获取最新版本号：<a href="https://pub.flutter-io.cn/packages/fluttertoast" target="_blank" rel="noopener">https://pub.flutter-io.cn/packages/fluttertoast</a></p><h1 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h1><h2 id="导包"><a href="#导包" class="headerlink" title="导包"></a>导包</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:fluttertoast/fluttertoast'</span>;</span><br></pre></td></tr></table></figure><h2 id="弹出toast"><a href="#弹出toast" class="headerlink" title="弹出toast"></a>弹出toast</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">Fluttertoast.showToast(</span><br><span class="line">  msg: <span class="string">"This is Center Short Toast"</span>,</span><br><span class="line">  toastLength: Toast.LENGTH_SHORT,</span><br><span class="line">  gravity: ToastGravity.CENTER,</span><br><span class="line">  timeInSecForIos: <span class="number">1</span>,</span><br><span class="line">  backgroundColor: Colors.red,</span><br><span class="line">  textColor: Colors.white,</span><br><span class="line">  fontSize: <span class="number">16.0</span></span><br><span class="line">);</span><br></pre></td></tr></table></figure><p>参数:</p><table><thead><tr><th>参数</th><th>描述</th></tr></thead><tbody><tr><td>msg</td><td>String，要弹出的消息，非空必须</td></tr><tr><td>toastLength</td><td>Toast.LENGTH_SHORT、 Toast.LENGTH_LONG</td></tr><tr><td>gravity</td><td>ToastGravity，toast显示的位置，ToastGravity.TOP、ToastGravity.CENTER、ToastGravity.BOTTOM</td></tr><tr><td>timeInSecForIos</td><td>int，仅限ios平台</td></tr><tr><td>backgroundColor</td><td>Color，背景颜色</td></tr><tr><td>textColor</td><td>Color，文字颜色</td></tr><tr><td>fontSize</td><td>float，文字大小</td></tr></tbody></table><h2 id="取消弹出"><a href="#取消弹出" class="headerlink" title="取消弹出"></a>取消弹出</h2><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Fluttertoast.cancel();</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -31,6 +31,14 @@
     
     </summary>
     
+      <category term="Flutter" scheme="https://ferlysky.gitee.io/categories/Flutter/"/>
+    
+      <category term="Flutter Plugins" scheme="https://ferlysky.gitee.io/categories/Flutter/Flutter-Plugins/"/>
+    
+    
+      <category term="Flutter" scheme="https://ferlysky.gitee.io/tags/Flutter/"/>
+    
+      <category term="Flutter Plugin" scheme="https://ferlysky.gitee.io/tags/Flutter-Plugin/"/>
     
   </entry>
   

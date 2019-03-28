@@ -4,5 +4,13 @@
     <title><![CDATA[Flutter Plugins 1: Fluttertoast]]></title>
     <url>%2F2019%2F03%2F28%2FFlutter-Plugins-1-Fluttertoast%2F</url>
     <content type="text"><![CDATA[Fluttertoast 是一个弹出toast的第三方框架 安装12dependencies: fluttertoast: ^3.0.3 获取最新版本号：https://pub.flutter-io.cn/packages/fluttertoast 使用方法导包1import 'package:fluttertoast/fluttertoast'; 弹出toast123456789Fluttertoast.showToast( msg: "This is Center Short Toast", toastLength: Toast.LENGTH_SHORT, gravity: ToastGravity.CENTER, timeInSecForIos: 1, backgroundColor: Colors.red, textColor: Colors.white, fontSize: 16.0); 参数: 参数 描述 msg String，要弹出的消息，非空必须 toastLength Toast.LENGTH_SHORT、 Toast.LENGTH_LONG gravity ToastGravity，toast显示的位置，ToastGravity.TOP、ToastGravity.CENTER、ToastGravity.BOTTOM timeInSecForIos int，仅限ios平台 backgroundColor Color，背景颜色 textColor Color，文字颜色 fontSize float，文字大小 取消弹出1Fluttertoast.cancel();]]></content>
+      <categories>
+        <category>Flutter</category>
+        <category>Flutter Plugins</category>
+      </categories>
+      <tags>
+        <tag>Flutter</tag>
+        <tag>Flutter Plugin</tag>
+      </tags>
   </entry>
 </search>
