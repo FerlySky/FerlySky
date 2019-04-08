@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://ferlysky.gitee.io/"/>
-  <updated>2019-04-03T07:41:40.464Z</updated>
+  <updated>2019-04-08T13:02:54.050Z</updated>
   <id>https://ferlysky.gitee.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Python Spider 1: 概述</title>
+    <link href="https://ferlysky.gitee.io/2019/04/08/Python-Spider-1-%E6%A6%82%E8%BF%B0/"/>
+    <id>https://ferlysky.gitee.io/2019/04/08/Python-Spider-1-概述/</id>
+    <published>2019-04-07T22:07:09.000Z</published>
+    <updated>2019-04-08T13:02:54.050Z</updated>
+    
+    <content type="html"><![CDATA[<p>随着大数据时代的到来，人们对数据资源的需求越来越多，而爬虫是一种很好的自动采集数据的手段。</p><h1 id="网络爬虫"><a href="#网络爬虫" class="headerlink" title="网络爬虫"></a>网络爬虫</h1><blockquote><p>网络爬虫（又被称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。</p></blockquote><a id="more"></a><h1 id="爬虫的分类及应用"><a href="#爬虫的分类及应用" class="headerlink" title="爬虫的分类及应用"></a>爬虫的分类及应用</h1><p>爬虫按照系统结构和实现技术大致可以分为：通用网络爬虫、聚焦网络爬虫 、增量式网络爬虫和深层网络爬虫。</p><ul><li>通用网络爬虫：通用爬虫的目标是尽可能大的网络覆盖。由于其数据涵盖范围较广，很多时候并不能获取到比较专业的资源。像百度谷歌等搜索引擎就是典型的通用爬虫。</li><li>聚焦网络爬虫：它根据要爬取的目标，有选择性的获取互联网上的资源，其结果更具有针对性。</li><li>增量式网络爬虫：只爬取新产生的或者发生变化的网页，不爬取已经获取过的资源。可以减小时间、空间以及带宽的消耗，但是实现起来相对复杂</li><li>深层网络爬虫：爬取某些非表面显示的资源，比如需要登录账号才能查看的资源。</li></ul><h1 id="爬虫的工作流程"><a href="#爬虫的工作流程" class="headerlink" title="爬虫的工作流程"></a>爬虫的工作流程</h1><ol><li>首先选取一部分精心挑选的种子URL；</li><li>将这些URL放入待抓取URL队列；</li><li>从待抓取URL队列中取出待抓取在URL，解析DNS，并且得到主机的ip，并将URL对应的网页下载下来，存储进已下载网页库中。此外，将这些URL放进已抓取URL队列。</li><li>分析已抓取URL队列中的URL，分析其中的其他URL，并且将URL放入待抓取URL队列，从而进入下一个循环。</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;随着大数据时代的到来，人们对数据资源的需求越来越多，而爬虫是一种很好的自动采集数据的手段。&lt;/p&gt;
+&lt;h1 id=&quot;网络爬虫&quot;&gt;&lt;a href=&quot;#网络爬虫&quot; class=&quot;headerlink&quot; title=&quot;网络爬虫&quot;&gt;&lt;/a&gt;网络爬虫&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;网络爬虫（又被称为网页蜘蛛，网络机器人，在FOAF社区中间，更经常的称为网页追逐者），是一种按照一定的规则，自动地抓取万维网信息的程序或者脚本。&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="网络爬虫" scheme="https://ferlysky.gitee.io/categories/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
+    
+    
+      <category term="python" scheme="https://ferlysky.gitee.io/tags/python/"/>
+    
+      <category term="spider" scheme="https://ferlysky.gitee.io/tags/spider/"/>
+    
+      <category term="网络爬虫" scheme="https://ferlysky.gitee.io/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="概述" scheme="https://ferlysky.gitee.io/tags/%E6%A6%82%E8%BF%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>算法 1: 动态规划</title>
