@@ -1,1 +1,1 @@
-https://ferlysky.gitee.io/2019/04/09/Python-Spider-2-网络请求/
+https://ferlysky.gitee.io/python-spider-2.html
